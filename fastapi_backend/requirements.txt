@@ -1,5 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 fastapi==0.104.1
-uvicorn==0.24.0
 python-multipart==0.0.6
 python-jose[cryptography]==3.5.0
 passlib==1.7.4
@@ -8,10 +9,10 @@ sqlalchemy==2.0.23
 pydantic==2.5.0
 pydantic-settings==2.1.0
 python-dotenv==1.0.0
+
+numpy==1.26.4
+Pillow==10.1.0
+opencv-python-headless==4.10.0.84   # remove if not needed
+
 torch==2.4.1+cpu
 torchvision==0.19.1+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
-Pillow==10.1.0
-opencv-python==4.8.1.78
-numpy==1.24.3
-google-genai==0.2.0
